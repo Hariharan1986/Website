@@ -126,7 +126,7 @@
                 <div id="the-cradle-intro">
                     <div class="container">
                         <div class="row">
-                            <div class="col-xl-10 offset-xl-1">
+                           
                                 <div class="row align-items-center">
                                     <div class="col-md-5 offset-md-1 mb-5 mb-md-0 order-2 order-md-1">
                                         <div class="img-anim-portrait">
@@ -149,75 +149,20 @@
                                         </h3>
                                         
                                     </div>
-                                </div>
-                            </div>
+                                </div
+                            
                         </div>
                     </div>
                 </div>
                 
-                <span id="location-pin"></span>
-                <div id="location">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-10 offset-xl-1">
-                                <div class="row align-items-end">
-                                    <div class="mb-5 col-lg-12 mt-6 video">
-                                        <canvas id="media-port"></canvas>
-                                    </div>
-                                    <div class="col-md-7 col-lg-5 text">
-                                        <h2 style="color: black;">
-                                           <b>Hari Builders </b> 
-                                        </h2>
-                                        <p ></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+           
                 
                 <div id="awards" >
                     
                     <div class="container">
                         <div class="row">
                             
-                            <div class="col-xl-10 offset-xl-1">
-                                <div class="row align-items-md-center justify-content-lg-around">
-                                    
-                                    <div class="col-md-5 col-lg-12 mb-4 mb-md-0" data-pf=".1">
-                                        <ul class="list-unstyled row align-items-center justify-content-lg-around mb-3">
-                                            <div><img height="30" width="30" src="assets/svg/eye.svg">
-                                                <h3 id="H3_4">
-                                                    Vision
-                                                </h3>
-                                                <p id="P_6">
-                                                    To achieve leadership in the housing sector, by bringing the comfort and luxury of any upscale residences to the reach of all.
-                                                </p>
-                                            </div>
-                                            <div><img src="https://img.icons8.com/ios-glyphs/30/000000/strength.png"/>
-                                                <h3 id="H3_4">
-                                                    Strength
-                                                </h3>
-                                                <p id="P_6">
-                                                    We are committed to excellence in all that we do. We believe that on time delivery of the highest quality projects for the best value is only part of the equation.
-                                                </p>
-                                                <br>
-                                            </div>
-                                            <div><img src="https://img.icons8.com/material-rounded/24/000000/user-group-man-woman.png"/>
-                                                <h3 id="H3_4">
-                                                    Team
-                                                </h3>
-                                                <p id="P_6">
-                                                    Our dedication to quality, maintenance of standards and understanding the local needs flow from the management to all the departments.
-                                                </p>
-                                            </div>
-                                            
-                                           
-                                        </ul>
-                                    </div>
-                                    
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -302,12 +247,105 @@
                           </div>
                         </div>
                       
+
+                      
+
                     </div>
                   </div>                               
-            </section>       
-        <script src="js/bundle.min.js?v=8e7f331d967da96a391f1edca691130f"></script>
+            </section>   
+            
+            
 
-
+<style>
+#gallery{
+  -webkit-column-count:4;
+  -moz-column-count:4;
+  column-count:4;
+  
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}
+@media (max-width:1200px){
+  #gallery{
+  -webkit-column-count:3;
+  -moz-column-count:3;
+  column-count:3;
+    
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}
+}
+@media (max-width:800px){
+  #gallery{
+  -webkit-column-count:2;
+  -moz-column-count:2;
+  column-count:2;
+    
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}
+}
+@media (max-width:600px){
+  #gallery{
+  -webkit-column-count:1;
+  -moz-column-count:1;
+  column-count:1;
+}  
+}
+#gallery img,#gallery video {
+  width:100%;
+  height:auto;
+  margin: 4% auto;
+  box-shadow:-3px 5px 15px #000;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.modal-img,.model-vid{
+  width:100%;
+  height:auto;
+}
+.modal-body{
+  padding:0px;
+}
+</style>
+        <div id="gallery" class="container-fluid">  
+            <img src="https://source.unsplash.com/1600x1200?female,portrait" class="img-responsive">
+            <img src="https://source.unsplash.com/1024x768?female,portrait" class="img-responsive">
+             <img src="https://source.unsplash.com/1366x768?female,portrait" class="img-responsive">
+            <video class="vid" controls>
+              <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+              </source>
+            </video>
+            <img src="https://source.unsplash.com/1920x1080?female,portrait" class="img-responsive">
+            <img src="https://source.unsplash.com/640x360?female,portrait" class="img-responsive">
+          <img src="https://source.unsplash.com/320x640?female,portrait" class="img-responsive">
+            <img src="https://source.unsplash.com/1200x1600?female,portrait" class="card img-responsive">
+            <img src="https://source.unsplash.com/800x600?female,portrait" class="img-responsive">
+            <img src="https://source.unsplash.com/600x800?female,portrait" class="img-responsive">
+            <img src="https://source.unsplash.com/400x600?female,portrait" class="img-responsive">
+            <img src="https://source.unsplash.com/600x400?female,portrait" class="img-responsive">
+          <img src="https://source.unsplash.com/1100x1600?female,portrait" class="img-responsive">
+          <img src="https://source.unsplash.com/1600x1100?female,portrait" class="img-responsive">
+          <img src="https://source.unsplash.com/992x768?female,portrait" class="img-responsive">
+          <img src="https://source.unsplash.com/768x992?female,portrait" class="img-responsive">
+          
+          </div>
+          
+          <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+          
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-body">
+                </div>
+              </div>
+          
+            </div>
+          </div> 
 
 
 

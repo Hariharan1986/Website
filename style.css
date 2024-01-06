@@ -518,6 +518,108 @@ Primary style
 
 
 
+body {
+	 background: linear-gradient(#fff, white);
+}
+ .underline, .title:after, .our-work .text p:after {
+	 content: "";
+	 position: absolute;
+	 width: 10%;
+	 height: 1px;
+	 bottom: 0;
+	 left: 45%;
+}
+ .flexb, .our-work .flex-container {
+	 display: flex;
+	 justify-content: center;
+	 flex-wrap: wrap;
+}
+ .title {
+	 color: #222;
+	 padding-bottom: 80px;
+	 position: relative;
+	 text-align: center;
+	 font-family: 'Roboto Slab', serif;
+	 font-size: 30px;
+}
+ .title:after {
+	 border-bottom: 4px solid #efab4b;
+	 padding-top: 80px;
+}
+ .our-work .flex-container {
+	 margin-top: 80px;
+	 max-width: 1170;
+}
+ .our-work img {
+	 Z-index: 5;
+	 opacity: 1;
+	 display: block;
+	 width: 100%;
+	 height: auto;
+	 transition: 0.5s ease;
+	 backface-visibility: hidden;
+}
+ .our-work .flex-container .container {
+	 position: relative;
+	 width: 370px;
+	 height: fit-content;
+	 max-height: 420px;
+	 margin: 30px;
+}
+ .our-work .text-wrap {
+	 transition: 0.5s ease;
+	 opacity: 0;
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 transform: translate(-50%, -50%);
+	 -ms-transform: translate(-50%, -50%);
+	 text-align: center;
+}
+ .our-work .container:hover {
+	 background-color: rgba(0, 0, 0, 0.8);
+	 z-index: 10;
+}
+ .our-work .container:hover img {
+	 opacity: 0.6;
+}
+ .our-work .container:hover .text-wrap {
+	 opacity: 1;
+}
+ .our-work .text {
+	 color: white;
+	 font-size: 21px;
+}
+ .our-work .text h1 {
+	 font-family: 'Roboto Slab', serif;
+	 font-size: 24px;
+}
+ .our-work .text p {
+	 font-weight: 300;
+}
+ .our-work .text p:after {
+	 transform: translate(-50%, -50%);
+	 border-bottom: 4px solid #efab4b;
+	 width: 45%;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
