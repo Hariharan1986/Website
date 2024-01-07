@@ -81,10 +81,11 @@ Primary style
   }
   
   body {
+	
 	background: #fff;
 	color: #515151;
 	font-size: 80%;
-	font-family: "Corporate S W01";
+	font-family: "Poppins", sans-serif !important;
   }
   
   a {
